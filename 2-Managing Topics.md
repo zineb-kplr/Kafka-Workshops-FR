@@ -67,4 +67,4 @@ kafka-broker-api-versions.sh --bootstrap-server localhost:9092
   - - **A faire :** Vérifiez la liste des sujets (topics) et assurez-vous que le sujet hello a été supprimé.
 - ### **Explorez les configurations du sujet (topic):**
 - Jetez un coup d'œil aux configurations possibles [ici](https://kafka.apache.org/documentation/#topicconfigs)
-- 
+- ### **Modifier la durée de rétention pour un Topic :**
