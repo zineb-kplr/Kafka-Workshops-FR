@@ -48,3 +48,23 @@ kafka-broker-api-versions.sh --bootstrap-server localhost:9092
   -  ```--partitions 1 ``` : Cela spécifie le nombre de partitions que nous voulons attribuer au sujet (dans cet exemple, une seule partition).
   -  ```--replication-factor 1 ``` : Cela définit le facteur de réplication pour le sujet, indiquant combien de copies des partitions du sujet doivent être maintenues (dans cet exemple, une seule réplication).
 - **A faire :** Vérifiez la liste des sujets (topics) et assurez-vous que le sujet kafka a été ajouté.
+- ### **Décrivez un Topic**
+- Utilisez la commande suivante pour décrire un sujet et obtenir des informations détaillées à son sujet :
+  ```
+  kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic hello
+  ```
+  - Cette commande affichera les détails du sujet "hello" sur votre cluster Kafka local. Vous obtiendrez des informations telles que le nom du sujet, le nombre de partitions, le facteur de réplication, les détails de chaque partition (y compris les brokers leader et les réplicas) et d'autres propriétés du sujet.
+
+  - Cela vous permettra d'explorer les caractéristiques et les configurations spécifiques du sujet, ce qui est utile pour comprendre son état, sa distribution et son fonctionnement au sein de votre cluster Kafka.
+  
+  ![image](https://github.com/zineb-kplr/Kafka-Workshops-FR/assets/123749462/365bab0a-c155-4a2a-a1fd-1b54de790dbe)
+
+- ### **Supprimer un Topic :**
+    ```
+    kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic hello
+    ```
+    - Cette commande supprimera le sujet "hello" du cluster Kafka auquel vous vous connectez via le bootstrap server sur localhost:9092.
+  - - **A faire :** Vérifiez la liste des sujets (topics) et assurez-vous que le sujet hello a été supprimé.
+- ### **Explorez les configurations du sujet (topic):**
+- Jetez un coup d'œil aux configurations possibles [ici](https://kafka.apache.org/documentation/#topicconfigs)
+- 
