@@ -32,3 +32,6 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 --group 456 --topic 
 - Que remarquez-vous ?
 ## **Producteurs multiples**
 - Maintenant, essayez d'ajouter un nouveau producteur et envoyez des informations à votre topic à partir des deux producteurs.
+
+  ![image](https://github.com/zineb-kplr/Kafka-Workshops-FR/assets/123749462/bab413db-e5a2-4b91-9182-f6629196c4e5)
+
