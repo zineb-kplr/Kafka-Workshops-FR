@@ -17,6 +17,8 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 --group 123 --topic 
 
 - Attribuez le même ID de groupe de consommateurs à chaque console consommateur
 
+![image](https://github.com/zineb-kplr/Kafka-Workshops-FR/assets/123749462/d95b6dcc-6c37-4202-a29e-781294ec9ed2)
+
 - Que remarquez-vous ?
 
 - Ajoutez de nouveaux consommateurs avec un nouveau groupe de consommateurs
@@ -24,6 +26,9 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 --group 123 --topic 
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --group 456 --topic split --from-beginning
 ```
 - Envoyez de nouvelles données
+
+![image](https://github.com/zineb-kplr/Kafka-Workshops-FR/assets/123749462/88acaa77-a0fb-48fe-94ca-6b15423f4616)
+
 - Que remarquez-vous ?
 ## **Producteurs multiples**
 - Maintenant, essayez d'ajouter un nouveau producteur et envoyez des informations à votre topic à partir des deux producteurs.
