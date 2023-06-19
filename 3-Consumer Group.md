@@ -8,6 +8,10 @@ kafka-topics.sh --bootstrap-server localhost:9092 \--create \--topic split \--pa
 ```shell
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --group 123 --topic split --from-beginning
 ```
+
+![image](https://github.com/zineb-kplr/Kafka-Workshops-FR/assets/123749462/b18db1d0-f08f-478c-b922-c1b803c193cc)
+
+
 ## **Rééquilibrage**
 - Maintenant, divisez à nouveau votre écran et lancez 3 autres consommateurs
 
