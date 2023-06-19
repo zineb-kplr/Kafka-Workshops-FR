@@ -1,11 +1,7 @@
 # **Consumer Group :** 
 ## **Créez un topic avec 3 partitions**
 ```shell
-kafka-topics.sh --bootstrap-server localhost:9092 \
-  --create \
-  --topic split \
-  --partitions 3 \
-  --replication-factor 1
+kafka-topics.sh --bootstrap-server localhost:9092 \--create \--topic split \--partitions 3 \--replication-factor 1
 ```
 - Divisez votre terminal en deux et lancez 1 producteur et 1 consommateur
 - Attribuez un ID de groupe de consommateurs à votre consommateur
