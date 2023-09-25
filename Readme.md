@@ -1,5 +1,5 @@
 # Kafka Workshops :
-
+- Créer un compte sur [Github](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) . 
 - cloner ce [Repository](https://github.com/kplr-training/kafka-stream/tree/main) :
 
 ![image](https://github.com/zineb-kplr/Kafka-Workshops-FR/assets/123749462/a7d3efef-0a13-49f6-8108-1f7c1ac1c2a8)
